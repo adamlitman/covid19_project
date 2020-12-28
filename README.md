@@ -30,7 +30,15 @@ Pulled the following 10 datasets from CA.gov, each of which contained daily repo
 
 Visual of Missing Values per Column
 
+![image_nulls](/na_values.png)
+
 # Exploratory Data Analysis
+Highlights from EDA
+
+![image_scatter](/scatterplot.png)
+![image_hist](/histogram.png)
+![image_corr](/corr_matrix.png)
+![image_ecdf](/ECDF.png)
 
 # Model Building and Optimization
 The goal of model building was to design a regression model to accurately predict the daily death count based on the various case/testing/hospital variables.
@@ -48,3 +56,4 @@ Based on both R-squared and RMSE, the gradient boost model clearly performed bes
 
 These features contributed most to the gradient boost model performance:
 
+![image_features](/features.png)
